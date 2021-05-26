@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LT ”Vasile Alecsandri” </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+</head>
+
+<body>
+    <div id="menu-btn" onclick="menu()">
+        <i id="hamburger" class="fas fa-bars"></i>
+        <i id="close" class="fas fa-times hidden"></i>
+
+    </div>
+
+    <navbar id="side-menu">
+        <div id="menu-logo">
+            <i class="fas fa-graduation-cap"></i>
+        </div>
+        <a href="#despre" onclick="menu()"> Despre noi</a>
+        <a href="#merite" onclick="menu()"> Performanțe</a>
+        <a href="#galerie" onclick="menu()"> Galerie</a>
+        <a href="#orar" onclick="menu()"> Orar </a>
+        <a href="#contacte" onclick="menu()"> Contacte</a>
+        <a href="pages/noutati.html" onclick="menu()"> Noutăți</a>
+    </navbar>
+
+    <main id="main">
+        <section id="intro">
+            <div id="intro-content">
+                <h1 data-aos="zoom-in"> IP Liceul Teoretic <br /> "Vasile Alecsandri"</h1>
+                <a data-aos="zoom-in" data-aos-delay="600" href="#despre">Află mai mult</a>
+            </div>
+        </section>
+
+        <section id="despre">
+            <div class="centered" data-aos="fade-up">
+                <h1> Despre noi</h1>
+                <p>
+                    Misiunea liceului
+                    <hr>
+                    <q> Instituția Publică Liceul Teoretic "Vasile Alecsandri" din or. Ungheni este o instituție ce
+                        asigură servicii educaționale de calitate prin parteneriatul eficient dintre școală- elev- familie, care
+                        permite formarea competențelor necesare integrării elevilor în societatea modernă.
+                    </q>
+                </p>
+                <br>
+                <p>
+                    Viziunea Liceului
+                    <hr>
+                    <q> Asigurarea condițiilor și resurselor pentru servicii educaționale de calitate printr-un
+                        management activ și eficient al instituției școlare.
+                    </q>
+                </p>
+
+                <div class="cards">
+
+                    <div class="card" data-aos="flip-left" data-aos-delay="300">
+                        <i class="fas fa-universal-access"></i>
+                        <h3>Acces</h3>
+                    </div>
+
+                    <div class="card" data-aos="flip-left" data-aos-delay="600">
+                        <i class="far fa-check-circle"></i>
+                        <h3> Calitate</h3>
+                    </div>
+
+                    <div class="card" data-aos="flip-left" data-aos-delay="1500">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3> Siguranță</h3>
+                    </div>
+
+                    <div class="card" data-aos="flip-left" data-aos-delay="1200">
+                        <i class="fas fa-user-tie"></i>
+                        <h3>Profesionalism</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="merite">
+            <div class="centered" data-aos="fade-up">
+                <h1> PERFORMANȚE</h1>
+                <i id="trofeu" class="fas fa-trophy" data-aos="flip-left" data-aos-delay="500"></i>
+                <p>
+                    Cadre didactice cu grad didactic Superior – 7, 15,55%,
+                    grad didactic Întâi - 18 cadre didactice, 33,33 %,
+                    grad didactic II - 19 cadre didactice , 42,22% </p>
+
+                </p>
+            </div>
+            <div class="merit">
+                <i class="fas fa-medal medalie"></i>
+                Certificat de calitate în predarea limbii franceze <I> LabelFranceEducation </I>
+            </div>
+            <div class="merit">
+                <i class="fas fa-medal medalie"></i>
+                Proiectul educațional <I>Tekwill în fiecare școală</I>
+            </div>
+            <div class="merit">
+                <i class="fas fa-medal medalie"></i>
+                Proiectul educaționall <I>Clasa Viitorului</I>
+            </div>
+           
+            <div class="merit">
+                <i class="fas fa-medal medalie"></i>
+                Proiectul educațional <I>Educație pentru socializare juridică în școli </I>
+            </div>
+            <div class="merit">
+                <i class="fas fa-medal medalie"></i>
+                Cele mai multe locuri premiante la etapa raională a concursurilor școlare
+                <I> </I>
+            </div>
+            <div class="slideshow">
+
+                <div class="slide">
+                    <div class="nr-slide">1/4</div>
+                    <img src="images/liceu5.jpg" />
+                </div>
+
+                <div class="slide">
+                    <div class="nr-slide">2/4</div>
+                    <img src="images/liceu2.jpg" />
+                </div>
+
+                <div class="slide">
+                    <div class="nr-slide">3/4</div>
+                    <img src="images/liceu3.jpg" />
+                </div>
+
+                <div class="slide">
+                    <div class="nr-slide">4/4</div>
+                    <img src="images/merite.jpg" />
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <section id="galerie">
+            <h1 class="centered"> Galerie</h1>
+            <div class="container-galerie">
+                <a href="images/img1.png" target="_blank">
+                    <img src="images/img1.png" data-aos="flip-up">
+                </a>
+                <a href="images/img3.jpg" target="_blank">
+                    <img src="images/img3.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/img4.jpg" target="_blank">
+                    <img src="images/img4.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/img6.jpg" target="_blank">
+                    <img src="images/img6.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/revista.png" target="_blank">
+                    <img src="images/revista.png" data-aos="flip-up">
+                </a>
+                <a href="images/liceu5.jpg" target="_blank">
+                    <img src="images/liceu4.jpg" data-aos="flip-up">
+                </a>
+
+            </div>
+            <div class="row">
+                <div class="col-50 video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/gzIQn6zXUP4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-50 video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/NSc3_AId71I"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="orar">
+            <h1 class="centered"> Orar</h1>
+
+            <div class="acordeon">
+
+                <input type="checkbox" id="clasa-0">
+                <label for="clasa-0"><i class="fas fa-caret-down"></i> Orarul general</label>
+
+                <div class="content">
+                        <a href="images/orare/orar_profesori.PNG">
+                            <div class="clasa"> Orar profesori</div>
+                            <img src="images/orare/orar_profesori.PNG">
+                        </a>
+                        <a href="images/orare/orar_clase.PNG">
+                            <div class="clasa"> Orar elevi </div>
+                            <img src="images/orare/orar_clase.png">
+                        </a>
+                        <a href="images/orare/orar.jpg">
+                            <div class="clasa"> Orar elevi </div>
+                            <img src="images/orare/orar.jpg">
+                        </a>
+                </div>
+                
+                 <div class="acordeon">
+
+                 <input type="checkbox" id="clasa-9">
+                 <label for="clasa-9"><i class="fas fa-caret-down"></i> Orarul claselor a IX-a </label>
+
+                  <div class="content">
+                    
+                    <a href="images/orare/orare/9A.PNG">
+                        <div class="clasa"> 9A </div>
+                        <img src="images/orare/orare/9A.PNG">
+                    </a>
+
+                    <a href="images/orare/orare/9B.PNG">
+                        <div class="clasa"> 9B </div>
+                        <img src="images/orare/orare/9B.PNG">
+                    </a>
+                    
+                    <a href="images/orare/orare/9C.PNG">
+                        <div class="clasa"> 9C </div>
+                        <img src="images/orare/orare/9C.PNG">
+                    </a>
+
+                </div>
+            </div>
+            <div class="acordeon">
+
+                <input type="checkbox" id="clasa-10">
+                <label for="clasa-10"><i class="fas fa-caret-down"></i> Orarul claselor a X-a </label>
+
+                <div class="content">
+                   
+                   <a href="images/orare/orare/9A.PNG">
+                       <div class="clasa"> 10A </div>
+                       <img src="images/orare/orare/10A.PNG">
+                   </a>
+
+                   <a href="images/orare/orare/10B.PNG">
+                       <div class="clasa"> 10B </div>
+                       <img src="images/orare/orare/10B.PNG">
+                   </a>
+                   
+                   <a href="images/orare/orare/10C.PNG">
+                       <div class="clasa"> 10C </div>
+                       <img src="images/orare/orare/10C.PNG">
+                   </a>
+
+               </div>
+           </div>
+           <div class="acordeon">
+
+            <input type="checkbox" id="clasa-11">
+            <label for="clasa-11"><i class="fas fa-caret-down"></i> Orarul claselor a XI-a </label>
+
+             <div class="content">
+               
+               <a href="images/orare/orare/9A.PNG">
+                   <div class="clasa"> 11A </div>
+                   <img src="images/orare/orare/11A.PNG">
+               </a>
+               
+               <a href="images/orare/orare/11B.PNG">
+                   <div class="clasa"> 11B </div>
+                   <img src="images/orare/orare/11B.PNG">
+               </a>
+
+               <a href="images/orare/orare/11C.PNG">
+                   <div class="clasa"> 11C </div>
+                   <img src="images/orare/orare/11C.PNG">
+               </a>
+
+           </div>
+       </div>
+            
+        </section>
+
+        <section id="contacte">
+
+            <div class="row">
+
+                <div class="col-50">
+                    <h1 class="centered"> Contacte</h1>
+                    <div>
+                        <b> Telefon:</b>
+                        <span>+373 23622965</span>
+                    </div>
+                    <div>
+                        <b> Adresa:</b>
+                        <span>or. Ungheni, str. Națională 13</span>
+                    </div>
+                    <div>
+                        <b> email:</b>
+                        <span>alecsandri.liceu1@gmail.com</span>
+                    </div>
+
+                    <div class="formular-container">
+                        <form id="formular">
+                            <h3> Transmite un mesaj</h3>
+                            <input type="text" id="nume" placeholder="Nume" required>
+                            <br />
+                            <input type="text" id="email" placeholder="Email" required>
+                            <br />
+                            <textarea id="mesaj" rows="4" placeholder="Mesaj"></textarea>
+                            <br />
+                            <input onclick="send()" type="button" id="transmite" value="Transmite">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-50">
+                    <h1 class="centered"> Ne aflăm aici</h1>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.502226039575!2d27.797493915616712!3d47.206754629160265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb0023e2acf81f%3A0xe5d7a82c5c505e98!2sLiceul%20%22Vasile%20Alecsandri%22%2C%20A283%2C%20Ungheni!5e0!3m2!1sru!2s!4v1620835976037!5m2!1sru!2s"
+                        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <div class="titlu-footer">
+                Instituția Publică Liceul Teoretic "Vasile Alecsandri", Ungheni
+            </div>
+            <div class="centered">
+                <a href="https://www.facebook.com/liceu.vasile.alecsandri" target="_blank">
+                    <img src="images/fb.png" />
+                </a>
+    
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
